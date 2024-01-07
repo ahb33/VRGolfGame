@@ -1,0 +1,52 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+
+
+// This script will control gameflow
+public class GameController : MonoBehaviour
+{
+
+    [SerializeField]
+    private float GameTime = 10f;
+
+
+    private float CurrentTime;
+
+    private TextMesh;
+
+    [SerializeField]
+    private bool IsGameStarted; 
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        CurrentTime = GameTime = 10f;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(IsGameStarted)
+        {
+            CurrentTime -= Time.deltaTime;
+
+        }
+
+        if(CurrentTime <= 0)
+        {
+            IsGameStarted = false;
+        }
+     
+
+    }
+
+    public void StartGame()
+    {
+        if(IsGameStarted)
+        {
+
+        }
+    }
+}

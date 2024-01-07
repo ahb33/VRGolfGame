@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &741993759609622833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3622678912208794962}
+  - component: {fileID: 3492722395470424799}
+  m_Layer: 0
+  m_Name: GolfGameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3622678912208794962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741993759609622833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.262825, y: 4.304718, z: -10.410704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3492722395470424799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741993759609622833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ea9fa6a0605ec44b180f9e44931e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Spawner: {fileID: 0}
+  XROrigin: {fileID: 0}
+  ContinuousMovementLocomotionSystem: {fileID: 0}
+  TurnProviderLocomotion: {fileID: 0}
+  GameOverImage: {fileID: 0}
+  GameButtonUI: {fileID: 0}
+  RestartButton: {fileID: 0}
+  StartButton: {fileID: 0}
+  startingPositionObject: {fileID: 0}
+  startingPosition: {x: 16, y: 1.103333, z: -12.5}
+  fallOffThreshold: -10
+  GameTime: 60
+  CurrentTime: 0
+  GameScore: 0
+  GameStarted: 0
+  TimerValueText: {fileID: 0}
+  ScoreValueText: {fileID: 0}
+  GolfBallHitSound: {fileID: 8300000, guid: 719c2ae2c50067a40af6da41229752f4, type: 3}
+  GolfSuccessSound: {fileID: 8300000, guid: fa74e8dd5ed87de4a8ce5b39dbf3719b, type: 3}
+  GolfFailSound: {fileID: 8300000, guid: 3bdc7b67064e5484c950e2a9e710a416, type: 3}
+  ClubBreakSound: {fileID: 8300000, guid: c661bb6407c517f4f9da08ed4e10b75c, type: 3}
+  BumperNoise: {fileID: 8300000, guid: e6c2e757231d3314781153c0671a8ae7, type: 3}
+  AudioSource: {fileID: 0}
+  HighScore: 0
+  currentLevel: 1
+  par: 20
+  totalStrokes: 0
+  distanceToHole: 0
