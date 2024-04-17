@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &263968470248908330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3022222414333956067}
+  - component: {fileID: 3119100176071755701}
+  m_Layer: 0
+  m_Name: GolfSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3022222414333956067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263968470248908330}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.07, y: 1.48, z: -10.072}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3119100176071755701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263968470248908330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e4734634e480049a5ce2f5140f1d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GolfClubObject: {fileID: 8609726538320869271, guid: cd1259d7357df794dbf2e12c92084b6a, type: 3}
+  GolfBallObject: {fileID: 5314358017972834816, guid: d51daaaf19e37a64ca488db98ea372a5, type: 3}
+  spawnDistance: 0.5
+  clubRightOffset: {x: 1, y: 0, z: 0}
+  GolfBallTransform: {fileID: 0}
+  GolfClubTransform: {fileID: 0}
+  PlayerPosition: {fileID: 0}
+  Controller: {fileID: 0}

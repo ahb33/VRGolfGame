@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GolfMenu.unity
+    guid: bda580ed5760a854593880038d8743e8
+  - enabled: 1
+    path: Assets/Scenes/Golf1.unity
+    guid: 472d84da27130244a824944065d14b12
+  - enabled: 1
+    path: Assets/Scenes/Golf2.unity
+    guid: 4d86f74ab3ae6f144b3f1a57c5425ce9
+  - enabled: 1
+    path: Assets/Scenes/Golf3.unity
+    guid: 6eb4dd49b9907f14991c61ae6bb25e84
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ec1933339f860054e911e3c0d2949935, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bb7105148d8ab4745ba9906372047a56, type: 2}
